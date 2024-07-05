@@ -10,6 +10,6 @@ using namespace std ;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World from GitHub from MacMini " << endl ;
+    std::cout << "Hello, World from GitHub from MacMini 1" << endl ;
     return 0;
 }
