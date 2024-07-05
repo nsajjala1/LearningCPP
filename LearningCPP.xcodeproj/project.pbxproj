@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5264C7562C38575E00158C10 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5264C7552C38575E00158C10 /* main.cpp */; };
 		52CF09EC2C36FD7E0090E485 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52CF09EB2C36FD7E0090E485 /* main.cpp */; };
+		9BD6D8AA2C389C2100CCAAEF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BD6D8A92C389C2100CCAAEF /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		9BD6D8A52C389C2100CCAAEF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +47,8 @@
 		5264C7552C38575E00158C10 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		52CF09E82C36FD7E0090E485 /* LearningCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningCPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CF09EB2C36FD7E0090E485 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		52CF09F22C36FDF90090E485 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9BD6D8A72C389C2100CCAAEF /* LearningConditionalStatements */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LearningConditionalStatements; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD6D8A92C389C2100CCAAEF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +60,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		52CF09E52C36FD7E0090E485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD6D8A42C389C2100CCAAEF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,9 +87,9 @@
 		52CF09DF2C36FD7E0090E485 = {
 			isa = PBXGroup;
 			children = (
-				52CF09F32C36FDF90090E485 /* Project2 */,
 				52CF09EA2C36FD7E0090E485 /* LearningCPP */,
 				5264C7542C38575E00158C10 /* Test2 */,
+				9BD6D8A82C389C2100CCAAEF /* LearningConditionalStatements */,
 				52CF09E92C36FD7E0090E485 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,6 +99,7 @@
 			children = (
 				52CF09E82C36FD7E0090E485 /* LearningCPP */,
 				5264C7532C38575E00158C10 /* Test2 */,
+				9BD6D8A72C389C2100CCAAEF /* LearningConditionalStatements */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,13 +112,13 @@
 			path = LearningCPP;
 			sourceTree = "<group>";
 		};
-		52CF09F32C36FDF90090E485 /* Project2 */ = {
+		9BD6D8A82C389C2100CCAAEF /* LearningConditionalStatements */ = {
 			isa = PBXGroup;
 			children = (
-				52CF09F22C36FDF90090E485 /* main.cpp */,
+				9BD6D8A92C389C2100CCAAEF /* main.cpp */,
 			);
-			path = Project2;
-			sourceTree = SOURCE_ROOT;
+			path = LearningConditionalStatements;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -138,6 +157,23 @@
 			productReference = 52CF09E82C36FD7E0090E485 /* LearningCPP */;
 			productType = "com.apple.product-type.tool";
 		};
+		9BD6D8A62C389C2100CCAAEF /* LearningConditionalStatements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD6D8AB2C389C2100CCAAEF /* Build configuration list for PBXNativeTarget "LearningConditionalStatements" */;
+			buildPhases = (
+				9BD6D8A32C389C2100CCAAEF /* Sources */,
+				9BD6D8A42C389C2100CCAAEF /* Frameworks */,
+				9BD6D8A52C389C2100CCAAEF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningConditionalStatements;
+			productName = LearningConditionalStatements;
+			productReference = 9BD6D8A72C389C2100CCAAEF /* LearningConditionalStatements */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,6 +187,9 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					52CF09E72C36FD7E0090E485 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					9BD6D8A62C389C2100CCAAEF = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -170,6 +209,7 @@
 			targets = (
 				52CF09E72C36FD7E0090E485 /* LearningCPP */,
 				5264C7522C38575E00158C10 /* Test2 */,
+				9BD6D8A62C389C2100CCAAEF /* LearningConditionalStatements */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +228,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				52CF09EC2C36FD7E0090E485 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD6D8A32C389C2100CCAAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD6D8AA2C389C2100CCAAEF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +389,22 @@
 			};
 			name = Release;
 		};
+		9BD6D8AC2C389C2100CCAAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9BD6D8AD2C389C2100CCAAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -367,6 +431,15 @@
 			buildConfigurations = (
 				52CF09F02C36FD7E0090E485 /* Debug */,
 				52CF09F12C36FD7E0090E485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD6D8AB2C389C2100CCAAEF /* Build configuration list for PBXNativeTarget "LearningConditionalStatements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD6D8AC2C389C2100CCAAEF /* Debug */,
+				9BD6D8AD2C389C2100CCAAEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
