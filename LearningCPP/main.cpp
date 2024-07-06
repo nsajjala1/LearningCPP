@@ -50,7 +50,7 @@ int main(int argc, const char * argv[]) {
             cout << "Sunday" << endl;
             break;
         default:
-            cout << "enter a number 1-7" << endl;
+            cout << "Enter a number 1-7" << endl;
     }
     
     
